@@ -1,0 +1,1 @@
+kicad/main/PCB.step filter=lfs diff=lfs merge=lfs -text
