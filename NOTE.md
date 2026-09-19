@@ -27,4 +27,18 @@ The PCBs of this board will be on different Boards such as:
 4. communication Board
 
 they will all communicate with each other, with the Carrier board being the main board with Radxa CM3 (2gb/8gb )
+```
+Number: 1
+Title: 
+Date: 19/09/2026
+By: Abhinav
+```
+Drive Motor
 
+We will use the DC Geared Motor with Encoder by DFRobot which has high torque as in harsh situations the robot would need more torque to move through the wet mud and small rocks in the soil.
+
+Link: https://wiki.dfrobot.com/fit0522/#tech_specs
+
+Lidar Sensor
+
+The robot would have a Benewake TF-LUNA Micro LiDAR to dodge the obstacles and prevent collison into them as camera can have mis info and would need a lot of tuning to perfect it. 
