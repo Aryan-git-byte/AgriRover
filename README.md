@@ -13,5 +13,5 @@ this is our done project till now:
 # Journals:
 you can read the journals of respective collaborators in the root of this repo as [NAME]-JOURNAL.md
 # Roadmap:
-[] Complete the CM4 Carrier Board by Next week
-[] Complete the Chasis till Next week
+- Complete the CM4 Carrier Board by Next week
+-  Complete the Chasis till Next week
