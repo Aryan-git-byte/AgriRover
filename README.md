@@ -3,11 +3,13 @@
 Till now we have completed the Actuator Board of the PCB side. and Auger arm, Camera Head, and LiDar on the CAD side.
 this is our done project till now:
 
-# PCB:
+## PCB:
 <img width="1331" height="828" alt="image" src="https://github.com/user-attachments/assets/84d443a9-c277-467c-a4d8-83e7c4e9cadb" />
-#Camera Head:
+
+## Camera Head:
 <img width="515" height="455" alt="image" src="https://github.com/user-attachments/assets/972cbfd1-2e7b-4a86-8f9d-78792f8f53eb" />
-# Auger arm:
+
+## Auger arm:
 <img width="955" height="668" alt="image" src="https://github.com/user-attachments/assets/ab138d2a-7213-44df-9491-f11522ebe437" />
 
 # Journals:
