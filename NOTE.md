@@ -42,3 +42,13 @@ Link: https://wiki.dfrobot.com/fit0522/#tech_specs
 Lidar Sensor
 
 The robot would have a Benewake TF-LUNA Micro LiDAR to dodge the obstacles and prevent collison into them as camera can have mis info and would need a lot of tuning to perfect it. 
+
+
+
+```
+Number: 3
+Title: Change in design scope
+Date: 20/09/2026
+By: aryan-git-byte
+```
+Changed the Radxa cm3 to raspberry pi CM4
