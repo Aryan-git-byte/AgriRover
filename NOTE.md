@@ -42,3 +42,34 @@ Link: https://wiki.dfrobot.com/fit0522/#tech_specs
 Lidar Sensor
 
 The robot would have a Benewake TF-LUNA Micro LiDAR to dodge the obstacles and prevent collison into them as camera can have mis info and would need a lot of tuning to perfect it. 
+
+
+
+```
+Number: 3
+Title: Change in design scope
+Date: 20/09/2026
+By: aryan-git-byte
+```
+Changed the Radxa cm3 to raspberry pi CM4
+
+
+
+```
+Number: 4
+Title: Scoping out the CM4 carrier board
+Date: 20/09/2026
+By: aryan-git-byte
+```
+
+The CM4 board would need to analyze the whole surrounding locally on the rover. 
+the goal of this CM4 board would be to manage:
+camera
+LiDar 
+IMU
+has can transceiver
+RTC
+Speaker
+Mic
+1 USB ports
+1 HDMI
