@@ -1,4 +1,4 @@
-# AgrirRover
+# AgriRover
 ## it is a agriculture helping rover that can roam freely and autonoumously to map out the farmland's nutrient map.
 Till now we have completed the Actuator Board of the PCB side. and Auger arm, Camera Head, and LiDar on the CAD side.
 this is our done project till now:
