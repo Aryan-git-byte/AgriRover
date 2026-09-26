@@ -35,3 +35,8 @@
   - `AgriRover_Assem.f3d`
   - `AgriRover_Assem.step`
   - `AgriRover_Assem.stl`
+## 2026-09-20 16:25:31 - AgriRover_Base
+- **Branch:** `fusion-export/AgriRover_Base-20260920-162531`
+  - `AgriRover_Base.f3d`
+  - `AgriRover_Base.step`
+  - `AgriRover_Base.stl`
