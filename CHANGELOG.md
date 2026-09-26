@@ -30,3 +30,8 @@
   - `AgriRover_Armupperlink.stl`
 ## 2026-09-20 17:12:16 - AgriRover_Armupperlink
 - **Branch:** `fusion-export/AgriRover_Armupperlink-20260920-171215`
+## 2026-09-20 20:37:21 - AgriRover_Assem
+- **Branch:** `fusion-export/AgriRover_Assem-20260920-203721`
+  - `AgriRover_Assem.f3d`
+  - `AgriRover_Assem.step`
+  - `AgriRover_Assem.stl`
