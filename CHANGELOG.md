@@ -45,3 +45,8 @@
   - `AgriRover_Camera.f3d`
   - `AgriRover_Camera.step`
   - `AgriRover_Camera.stl`
+## 2026-09-20 16:26:22 - AgriRover_Cover
+- **Branch:** `fusion-export/AgriRover_Cover-20260920-162622`
+  - `AgriRover_Cover.f3d`
+  - `AgriRover_Cover.step`
+  - `AgriRover_Cover.stl`
