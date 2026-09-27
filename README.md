@@ -24,7 +24,7 @@ this is our done project till now:
 you can read the journals of respective collaborators in the root of this repo as [NAME]-JOURNAL.md
 # Roadmap:
 - [x] Complete the CM4 Carrier Board by Next week
-- [ ] Complete the Chasis till Next week
+- [:heavy_check_mark:] Complete the Chasis till Next week
 - [ ] fix all the DRC error by this time in the main carrier board
 - [ ] make the Power Board 💀 (30A+)
 - [ ] make the communication board
