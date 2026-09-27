@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-27 17:05:32 - Auger
+- **Branch:** `fusion-export/Auger-20260927-170532`
+- **Commit Message:** "Updated design"
+- **Files Updated:**
+  - `Auger.f3d`
+  - `Auger.step`
+  - `Auger.stl`
+
+---
+
 ## 2026-09-23 19:53:06 - pin
 - **Branch:** `fusion-export/pin-20260923-195306`
 - **Commit Message:** "Updated design"
