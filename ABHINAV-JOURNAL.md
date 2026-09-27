@@ -12,7 +12,11 @@ This journal documents Abhinav's contributions and progress on the AgriRover pro
 
 *Update this journal regularly with progress notes, challenges, and solutions.*
 
-Journal 1: I started with the CAD with a basic rover idea and saw some of them and observed them and i made a rough model of our rover in around 3-4 hrs where i assembled it and we both agreed that it is good and i seperated the parts in different files and polished them to project level.
+```text
+Journal 1
+Title: Prototype
+```
+I started with the CAD with a basic rover idea and saw some of them and observed them and i made a rough model of our rover in around 3-4 hrs where i assembled it and we both agreed that it is good and i seperated the parts in different files and polished them to project level.
 
 - Observed some rovers to learn about the mechanism.
 - Made a Rough Model
@@ -22,7 +26,12 @@ Journal 1: I started with the CAD with a basic rover idea and saw some of them a
 
 This is the rough model i made.
 
-Journal 2: I am almost done with the CAD part with all the files pushed to github and i have assembled the parts to check how it looks. took me almost 5 hrs to make all of this and they are all in different files for ease.
+```text
+Journal 2
+Title: Starting with proper CAD
+```
+
+I am almost done with the CAD part with all the files pushed to github and i have assembled the parts to check how it looks. took me almost 5 hrs to make all of this and they are all in different files for ease.
 
 - Made the Drill arm.
 - Polished all the parts.
@@ -33,7 +42,11 @@ Journal 2: I am almost done with the CAD part with all the files pushed to githu
 
 <img width="955" height="668" alt="Screenshot 2026-09-20 181410" src="https://github.com/user-attachments/assets/da757cd5-38f0-4699-a1c4-36598a9f6e5d" />
 
-Journal 3: I am doing this journal after 6 hrs of work and i have made the wheel, rim, bearing, gear box, parts for suspension and some more parts.
+```text
+Journal 3
+Title: Moving parts
+```
+I am doing this journal after 6 hrs of work and i have made the wheel, rim, bearing, gear box, parts for suspension and some more parts.
 
 - Made multiple parts for suspension.
 - Started with the planetary gear box for the auger so we can have high torque.
@@ -47,7 +60,12 @@ Journal 3: I am doing this journal after 6 hrs of work and i have made the wheel
 <img width="741" height="606" alt="Screenshot 2026-09-27 154111" src="https://github.com/user-attachments/assets/b3b8b2f8-76ad-47ed-a46f-6a7c38fd6a8b" />
 <img width="1028" height="726" alt="Screenshot 2026-09-27 154101" src="https://github.com/user-attachments/assets/1a63723b-d456-4d43-8816-a03abcf43584" />
 
-Journal 4: This is where i yap more than the pics i put as i have finished my 10 hrs for this week on the last day because of procastination but i finished it anyways so i had to CAD a lot and by a lot i mean a lot because it was so much stuff to CAD but i am finally done with all the parts and will start assembling it next week but i might have to adjust some parts to make sure they can fit and and work well.
+```text
+Journal 4
+Title: CAD Finished
+```
+
+This is where i yap more than the pics i put as i have finished my 10 hrs for this week on the last day because of procastination but i finished it anyways so i had to CAD a lot and by a lot i mean a lot because it was so much stuff to CAD but i am finally done with all the parts and will start assembling it next week but i might have to adjust some parts to make sure they can fit and and work well.
 
 - Finished all the parts for CAD
 - made the planetary gear system
