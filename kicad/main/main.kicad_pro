@@ -727,7 +727,7 @@
         "uuid": "7a45b0bb-2ef0-4d35-91f1-8a3366c034b4"
       }
     ],
-    "used_designators": "Module2,R12-13",
+    "used_designators": "R12-13,Module2,U16,#PWR69-74,C13-14",
     "variants": []
   },
   "sheets": [
