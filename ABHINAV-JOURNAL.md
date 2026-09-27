@@ -47,3 +47,17 @@ Journal 3: I am doing this journal after 6 hrs of work and i have made the wheel
 <img width="741" height="606" alt="Screenshot 2026-09-27 154111" src="https://github.com/user-attachments/assets/b3b8b2f8-76ad-47ed-a46f-6a7c38fd6a8b" />
 <img width="1028" height="726" alt="Screenshot 2026-09-27 154101" src="https://github.com/user-attachments/assets/1a63723b-d456-4d43-8816-a03abcf43584" />
 
+Journal 4: This is where i yap more than the pics i put as i have finished my 10 hrs for this week on the last day because of procastination but i finished it anyways so i had to CAD a lot and by a lot i mean a lot because it was so much stuff to CAD but i am finally done with all the parts and will start assembling it next week but i might have to adjust some parts to make sure they can fit and and work well.
+
+- Finished all the parts for CAD
+- made the planetary gear system
+- had some chill with chatgpt (no ai usage in CAD please dont deflate my hours :isob:)
+- That's all for this week uhh finally some peace from tomorrow
+- Some really cool pics for the reviewers to enjoy :D
+- There are so many pics aghh my journal is filled with it
+  
+  <img width="842" height="752" alt="Screenshot 2026-09-27 231651" src="https://github.com/user-attachments/assets/57ab4925-783f-415b-8caf-b62d48123519" />
+
+
+  <img width="362" height="648" alt="Screenshot 2026-09-27 231634" src="https://github.com/user-attachments/assets/543f6120-c264-4588-93ba-8efd2fca2960" />
+<img width="982" height="653" alt="Screenshot 2026-09-27 231608" src="https://github.com/user-attachments/assets/d3a06ac9-c945-4af8-9d2f-e3ded1bebc1e" />
