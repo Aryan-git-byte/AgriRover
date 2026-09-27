@@ -33,3 +33,17 @@ Journal 2: I am almost done with the CAD part with all the files pushed to githu
 
 <img width="955" height="668" alt="Screenshot 2026-09-20 181410" src="https://github.com/user-attachments/assets/da757cd5-38f0-4699-a1c4-36598a9f6e5d" />
 
+Journal 3: I am doing this journal after 6 hrs of work and i have made the wheel, rim, bearing, gear box, parts for suspension and some more parts.
+
+- Made multiple parts for suspension.
+- Started with the planetary gear box for the auger so we can have high torque.
+- The pics have all the parts i made
+- Took me 6+ hrs to make them all
+
+<img width="1146" height="685" alt="Screenshot 2026-09-27 154051" src="https://github.com/user-attachments/assets/899358c2-bd09-4149-9396-f4f0e5ef4de2" />
+<img width="736" height="648" alt="Screenshot 2026-09-26 221439" src="https://github.com/user-attachments/assets/560d4e14-d86e-4162-9c76-62c7b7f25563" />
+<img width="717" height="630" alt="Screenshot 2026-09-27 162216" src="https://github.com/user-attachments/assets/b1d0bc1f-b50a-4282-b1bd-d4d20afa41dc" />
+<img width="1005" height="736" alt="Screenshot 2026-09-27 162202" src="https://github.com/user-attachments/assets/e16af821-3f83-42d8-ba06-e73cf8e94740" />
+<img width="741" height="606" alt="Screenshot 2026-09-27 154111" src="https://github.com/user-attachments/assets/b3b8b2f8-76ad-47ed-a46f-6a7c38fd6a8b" />
+<img width="1028" height="726" alt="Screenshot 2026-09-27 154101" src="https://github.com/user-attachments/assets/1a63723b-d456-4d43-8816-a03abcf43584" />
+
