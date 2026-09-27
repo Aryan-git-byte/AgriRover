@@ -73,3 +73,18 @@ Speaker
 Mic
 1 USB ports
 1 HDMI
+
+```text
+Number: 5
+Title: Checking out libraries needed for Coding
+Date: 27/09/2026
+By: Abhinav
+```
+
+i found a site which is showing how to use the RPI cam with opencv for coding.
+Link: https://opencv.org/configuring-raspberry-pi-for-opencv-camera-cooling/
+
+Libraries needed:
+python3-picamera2
+python3-opencv
+python3-numpy and some more but mainly these are needed for rasberry pi
