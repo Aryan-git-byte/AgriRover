@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-27 17:07:10 - Steering knuckle
+- **Branch:** `fusion-export/Steering_knuckle-20260927-170710`
+- **Commit Message:** "Updated design"
+- **Files Updated:**
+  - `Steering knuckle.f3d`
+  - `Steering knuckle.step`
+  - `Steering knuckle.stl`
+
+---
+
 ## 2026-09-23 19:53:06 - pin
 - **Branch:** `fusion-export/pin-20260923-195306`
 - **Commit Message:** "Updated design"
