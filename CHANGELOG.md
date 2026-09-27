@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-27 17:28:58 - Stepper Mount
+- **Branch:** `fusion-export/Stepper_Mount-20260927-172858`
+- **Commit Message:** "Updated design"
+- **Files Updated:**
+  - `Stepper Mount.f3d`
+  - `Stepper Mount.step`
+  - `Stepper Mount.stl`
+
+---
+
 ## 2026-09-23 19:53:06 - pin
 - **Branch:** `fusion-export/pin-20260923-195306`
 - **Commit Message:** "Updated design"
