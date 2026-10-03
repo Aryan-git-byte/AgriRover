@@ -88,3 +88,12 @@ Libraries needed:
 python3-picamera2
 python3-opencv
 python3-numpy and some more but mainly these are needed for rasberry pi
+
+```
+Number: 6
+Title: Scoping out the Radio Board
+Date: 03/10/2026
+By: Aryan-git-byte
+```
+The radio board need to have the LTE module along with antenna connectors, it will also have the RF receiver to be controlled with transmitter.
+also would have the GPS and connectors to be interfaced with the main board . it will be probably be made as a shield for that 2x20 rp connector.
