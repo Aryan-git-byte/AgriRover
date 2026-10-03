@@ -97,3 +97,4 @@ By: Aryan-git-byte
 ```
 The radio board need to have the LTE module along with antenna connectors, it will also have the RF receiver to be controlled with transmitter.
 also would have the GPS and connectors to be interfaced with the main board . it will be probably be made as a shield for that 2x20 rp connector.
+and yeah LoRa for the RF
