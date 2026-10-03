@@ -1,4 +1,4 @@
-<img width="1333" height="698" alt="image" src="https://github.com/user-attachments/assets/8d6f240a-83fd-4786-9edf-3fce0cdca5fa" /># Aryan's Project Journal
+
 ---
 title: "AgriRover"
 author: "Aryan-git-byte"
@@ -111,7 +111,19 @@ Lapse: https://lapse.hackclub.com/timelapse/eW_Bg22CGUb4
 this time i started by making the board 4 layer.and started routing all the left out power, gpios etc since high speed signals were done.even had to make it 6 layer later on.and with some brain dead moments i was done with routing:
 <img width="1065" height="849" alt="image" src="https://github.com/user-attachments/assets/517eaf45-c49e-4512-8765-1e89f9594de4" />
 <img width="1514" height="965" alt="image" src="https://github.com/user-attachments/assets/56087eed-c729-4b7a-b931-18e2f83271e4" />
+<img width="1333" height="698" alt="image" src="https://github.com/user-attachments/assets/8d6f240a-83fd-4786-9edf-3fce0cdca5fa" /># Aryan's Project Journal
 here ya go,
 <img width="1514" height="965" alt="image" src="https://github.com/user-attachments/assets/6417af85-0adb-4f81-bb3b-c58560d61132" />
 
 
+```
+Date: 27|09|2026
+Title: Tried to write the stm32 firmware
+Lapse: https://lapse.hackclub.com/timelapse/8Bd7vpZjyi8r
+```
+Started by writing the journal, and README.
+then tried the stm32 mx , installed it . and started doing the configs.
+ts was so confusing but some guides and AI helped me thru it. and did this much:
+<img width="763" height="673" alt="image" src="https://github.com/user-attachments/assets/4f2e38e2-8961-4dd5-96fb-e0b9190b7c5f" />
+<img width="763" height="428" alt="image" src="https://github.com/user-attachments/assets/cbb6fd7e-c29a-4f86-9d47-4bbeff758449" />
+and some channel thingy were bit confusing, so need to study about that.
