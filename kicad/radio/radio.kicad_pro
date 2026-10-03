@@ -63,19 +63,13 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -158,10 +152,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.15,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.3,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -209,9 +203,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -238,12 +230,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -501,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "main.kicad_pro",
+    "filename": "radio.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -509,7 +496,7 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.15,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -539,7 +526,6 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -603,18 +589,6 @@
         },
         {
           "group_by": true,
-          "label": "Exclude from Simulation",
-          "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Position Files",
-          "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -624,78 +598,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Field7",
-          "name": "Field7",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field8",
-          "name": "Field8",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part Description",
-          "name": "Part Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field6",
-          "name": "Field6",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field5",
-          "name": "Field5",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field4",
-          "name": "Field4",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -735,18 +643,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "main.kicad_sch",
-        "name": "main",
-        "uuid": "7a45b0bb-2ef0-4d35-91f1-8a3366c034b4"
+        "filename": "radio.kicad_sch",
+        "name": "Root",
+        "uuid": "b17401cb-1012-4449-bd2a-34680fa604d6"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1-2,D5-6,#PWR1-12,#PWR21,#PWR24,#PWR29-30,#PWR38-40,#PWR57-67,R1-2,R17-20,J4,J6,J8-9,U1-2,U7,U9,C20-29,Card1,Q3,IC1,L1",
     "variants": []
   },
   "sheets": [
     [
-      "7a45b0bb-2ef0-4d35-91f1-8a3366c034b4",
-      "main"
+      "b17401cb-1012-4449-bd2a-34680fa604d6",
+      "Root"
     ]
   ],
   "text_variables": {},
