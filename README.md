@@ -1,11 +1,13 @@
 # AgriRover
 ## it is a agriculture helping rover that can roam freely and autonoumously to map out the farmland's nutrient map.
-Till now we have completed the Actuator Board and the carrier board of the PCB side. and Auger arm, Camera Head,Wheel, Wheel adaptor and LiDar on the CAD side.
+Till now we have completed the Actuator Board, Radio Board and the carrier board of the PCB side. and Auger arm, Camera Head,Wheel, Wheel adaptor and LiDar on the CAD side.
 this is our done project till now:
-
+Werent able to push development in CAD this week much as abhinav was sick.
 ## PCB:
 <img width="1331" height="828" alt="image" src="https://github.com/user-attachments/assets/84d443a9-c277-467c-a4d8-83e7c4e9cadb" />
 <img width="1451" height="894" alt="image" src="https://github.com/user-attachments/assets/0a639468-379d-4856-9b54-11ac541905cb" />
+<img width="1246" height="843" alt="image" src="https://github.com/user-attachments/assets/19ff6ac8-39e0-4518-a36b-a1484dc91ea5" />
+<img width="1130" height="690" alt="image" src="https://github.com/user-attachments/assets/b594f59f-0301-4415-8010-940bdf553b91" />
 
 ## Camera Head:
 <img width="515" height="455" alt="image" src="https://github.com/user-attachments/assets/972cbfd1-2e7b-4a86-8f9d-78792f8f53eb" />
@@ -34,7 +36,8 @@ you can read the journals of respective collaborators in the root of this repo a
 # Roadmap:
 - [x] Complete the CM4 Carrier Board by Next week
 - [ ] Complete the Chasis till Next week
-- [ ] fix all the DRC error by this time in the main carrier board
+- [x] fix all the DRC error by this time in the main carrier board
 - [ ] make the Power Board 💀 (30A+)
-- [ ] make the communication board
+- [x] make the communication board
 - [ ] assemble all the individual components in the CAD
+[ Abhinav left as he was sick for this week, altho would work on the project tho in future ig ]
