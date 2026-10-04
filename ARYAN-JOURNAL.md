@@ -127,3 +127,73 @@ ts was so confusing but some guides and AI helped me thru it. and did this much:
 <img width="763" height="673" alt="image" src="https://github.com/user-attachments/assets/4f2e38e2-8961-4dd5-96fb-e0b9190b7c5f" />
 <img width="763" height="428" alt="image" src="https://github.com/user-attachments/assets/cbb6fd7e-c29a-4f86-9d47-4bbeff758449" />
 and some channel thingy were bit confusing, so need to study about that.
+```
+Date: 03|10|2026
+Title: Rerouted the CM4 IO
+Lapse: https://lapse.hackclub.com/timelapse/7rZrdbDsi1q3
+```
+Starting i thought that ill just fix the DRC issues and move ahead, but working on it needed me to reroute it as it was beyond saving due to the no. of vias i used near the right side connector. so had to delete all the routing done prvsly. and started routing it again, starting with HDMI and the camera connector.
+then connected the Ethernet and tuned its length to match its pair. after connecting the HDMI, camera, and ethrernet. i started doing all the GPIO connectors , SD card and allat stuff.
+was doing high speed stuff on first layer, then plain grnd layer. then work with normal stuff in last 4. with gnd plane too.
+i hope it doesnt generate EMI and stuff lmao, scarie.
+then i started searching connector for the power and settled with JST-XH. connected everything else, fixed DRCs which took a while, most of them were unconnected GNDs and Clearance violation which was severe, s oi fixed which needed to be otheri just opted in for advance pcb in jlcpcb and checked the prices lmao! which was like 30-ish usd for 6 layer pcb, capped via and stuff. reasonable tbh
+<img width="1449" height="569" alt="image" src="https://github.com/user-attachments/assets/42059fd1-1d4f-4b57-9208-671fe5547390" />
+after that i completed that main board and moved on to the radio board, first of all i scoped it out so i dont end up adding anything later. 
+goal was clear, GPS, LTE, LoRa. thats it.
+i copied the SIM7080 schematic from another project of mine which was tested. and added other stuff such as LoRa and MT3608 boost converter to convert the 3v3 coming from the header to the sim7080G. bsaically the design idea was to design as a shield that can be added onto the main board with that 40 pin connector.
+
+
+```
+Date: 04|10|2026
+Title: Completed the radio board and started some shi for the power board
+Lapse: https://lapse.hackclub.com/timelapse/v5VnK2nqmpeG
+```
+started by writing out the pinout of the cm4 that i connected with all the sensors and stuff. 
+
+```text
+GPIO13- RXD (lunahawk lidar)
+GPIO12 - TXD
+GPIO11 - SCK 
+GPIO09 - MISO
+GPIO10 - MOSI
+GPIO7 - IS_CS
+GPIO8 - MC_CS
+GPIO25 - INT
+GPIO24,23 - INT1,2
+```
+after that i started by searching the inductors and stuff for the radio board. after that i had to fix a mistake that i powered the servo sockets with the 3v3 which wont work lol, so changed it to 6V.
+after that i calculated the current and was summing up around 35A which was sceri asf tbh. so i decided to split up the 6V thing in two connectors instead of one 30A. so easier to handle later. i changed xt60 to xt30 connectors, added 3d models of their, added all capacitor and stuff and rerouted
+<img width="1432" height="887" alt="image" src="https://github.com/user-attachments/assets/9fbc91cc-c238-49fb-9068-79724f06046b" />
+after doing that, i came back to the radio board and added a I2C header to connect to the power board so that it can report to the CM4. and after that i started layouting the PCB and routing it which was ehh easy obv lol. here it is after doing allat 
+<img width="1246" height="843" alt="image" src="https://github.com/user-attachments/assets/511acb66-fa9b-4256-afc5-6b4666afee77" />
+and here it is connected to the main board 
+<img width="1130" height="690" alt="image" src="https://github.com/user-attachments/assets/b6688fc0-cd8e-4d23-be51-32b957830631" />
+which i rendered rq in fusion 360.
+
+After completing that part i started working on the main powr shi searching the batteries, solar panel etc. for the battery i decided:
+https://robu.in/product/pro-range-ifr-32650-lifepo4-30000mah-12-8v-4s5p-protected-battery-pack-3c/
+and its charger 
+https://robu.in/product/battery-charger-4s-lifepo4-14-6v-5a-with-xt60-connector/
+
+and this solar panel:
+https://www.amazon.in/WAAREE-Modules-Charging-Performance-Warranty/dp/B0F1D9YT9B
+its a 60W one, that'd power it for uh like 1-2 extra hours ,meh but still better smthg than nthg.
+
+after i started making the schematic of the LM5154 and another buck which was LMR33640ADDA. made one copied it 3 times. for 5v, 3v3, and 3v3_sub
+since the lm5154
+<img width="636" height="368" alt="image" src="https://github.com/user-attachments/assets/39731176-178c-4a14-b226-2b6addb1a52b" />
+thing was rottingmy brain i thought i shall give it a rest and focus on documenting it 
+but i opened canva, stopped lapse and went out for few moment came back and decided to continue the schematic anyways lmao.
+after that i pushed everything and stopped timelapse.
+
+```
+Date: 04|10|2026
+Title: completed the buck section, and writing the journals
+Lapse: https://lapse.hackclub.com/timelapse/zhegiiK2k-wa
+```
+Started by putting in values for all the passive by getting them calculated from claude, its good man.like AI has been so good recently. altho ill need to check all that next time again to verify . after that i added some values for the MOSFET, selected CSD18534Q5A and changed some values according to that.
+then started writing the journals and pushed that .
+
+heres the schematic rn:
+<img width="1224" height="802" alt="image" src="https://github.com/user-attachments/assets/909d2687-a7bb-486e-a3de-0479fffc7890" />
+and then i stopped the lapse
