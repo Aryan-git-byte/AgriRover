@@ -4440,6 +4440,12 @@
 		(uuid "5c559bd2-3e7c-4009-a9f4-452641be6805")
 	)
 	(junction
+		(at 107.95 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "655a2a28-b9b0-48c5-a19d-fc5a8e4b2b45")
+	)
+	(junction
 		(at 165.1 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4510,6 +4516,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2b153ef-7deb-4c12-b5e4-a61b5a47b10f")
+	)
+	(junction
+		(at 115.57 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d270a8ef-6b96-4f29-9a17-36d15f5fe6f6")
 	)
 	(junction
 		(at 127 21.59)
@@ -4682,6 +4694,16 @@
 			(type default)
 		)
 		(uuid "0a229acb-87ef-4c31-9168-6371f736e484")
+	)
+	(wire
+		(pts
+			(xy 123.19 146.05) (xy 115.57 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f117923-cfbd-47f3-9d5b-cd0c23d979f3")
 	)
 	(wire
 		(pts
@@ -4902,6 +4924,16 @@
 			(type default)
 		)
 		(uuid "20c5b689-2a2d-440e-9ce2-09b1b38a1409")
+	)
+	(wire
+		(pts
+			(xy 99.06 146.05) (xy 115.57 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21464186-a705-4458-b390-490ede88d6d9")
 	)
 	(wire
 		(pts
@@ -5242,6 +5274,16 @@
 			(type default)
 		)
 		(uuid "43688535-bca0-4a58-bbdb-f8fadf32768e")
+	)
+	(wire
+		(pts
+			(xy 123.19 142.24) (xy 123.19 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4507ffeb-c52d-44ef-b353-c3c26eb9276d")
 	)
 	(wire
 		(pts
@@ -6045,6 +6087,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 148.59) (xy 99.06 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976049ad-3938-4dc1-8b97-86a262cab288")
+	)
+	(wire
+		(pts
 			(xy 251.46 33.02) (xy 246.38 33.02)
 		)
 		(stroke
@@ -6052,6 +6104,16 @@
 			(type default)
 		)
 		(uuid "998b0405-1587-47a2-8626-94c6966fef40")
+	)
+	(wire
+		(pts
+			(xy 102.87 153.67) (xy 102.87 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e1609c-b07b-48aa-8925-3b10d6e35cd8")
 	)
 	(wire
 		(pts
@@ -9546,6 +9608,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 107.95 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "376786e7-a1fe-469a-a7e1-771a1adc6644")
+		(property "Reference" "C37"
+			(at 107.95 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 107.95 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 108.9152 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "667c3765-270a-4bbf-b73f-b70f372a8985")
+		)
+		(pin "2"
+			(uuid "b5f631fe-af0f-4615-b711-dde8c0a2a2c9")
+		)
+		(instances
+			(project "actuators"
+				(path "/d2c51b21-75fb-4787-ab14-f8a2e4e8f6ca"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 31.75 0)
 		(unit 1)
@@ -10053,7 +10196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 17.78 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10497,6 +10640,83 @@
 			(project "actuators"
 				(path "/d2c51b21-75fb-4787-ab14-f8a2e4e8f6ca"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60e08c9d-f109-4131-a6a6-4536e0aaa1d9")
+		(property "Reference" "#PWR0111"
+			(at 102.87 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd5bd282-5bab-4873-bdcc-c7e6fd832fd0")
+		)
+		(instances
+			(project "actuators"
+				(path "/d2c51b21-75fb-4787-ab14-f8a2e4e8f6ca"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -10987,6 +11207,83 @@
 			(project "actuators"
 				(path "/d2c51b21-75fb-4787-ab14-f8a2e4e8f6ca"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7009c51a-f16f-417a-892c-0bb312b718e7")
+		(property "Reference" "#PWR0112"
+			(at 107.95 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6102d765-c847-49cf-b1f8-bdb42eb84f03")
+		)
+		(instances
+			(project "actuators"
+				(path "/d2c51b21-75fb-4787-ab14-f8a2e4e8f6ca"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -13072,14 +13369,15 @@
 				)
 			)
 		)
-		(property "Value" "+6V"
-			(at 172.72 46.99 0)
+		(property "Value" "+6V2"
+			(at 175.26 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13277,6 +13575,84 @@
 			(project "actuators"
 				(path "/d2c51b21-75fb-4787-ab14-f8a2e4e8f6ca"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+6V")
+		(at 123.19 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bce144b5-35c7-43cc-94bf-f30fd7bf90b0")
+		(property "Reference" "#PWR0114"
+			(at 123.19 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+6V2"
+			(at 123.19 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+6V\""
+			(at 123.19 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "892f0125-e764-4118-9a66-64f98f589df5")
+		)
+		(instances
+			(project "actuators"
+				(path "/d2c51b21-75fb-4787-ab14-f8a2e4e8f6ca"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -13703,6 +14079,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 115.57 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb05a4f9-ea9d-44d8-8161-98551cb03901")
+		(property "Reference" "#PWR0113"
+			(at 115.57 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "711aabca-1756-441a-9b78-4bd0aa7c7ed0")
+		)
+		(instances
+			(project "actuators"
+				(path "/d2c51b21-75fb-4787-ab14-f8a2e4e8f6ca"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 31.75 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -13972,7 +14425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 17.78 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -14259,6 +14712,87 @@
 			(project "actuators"
 				(path "/d2c51b21-75fb-4787-ab14-f8a2e4e8f6ca"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 93.98 146.05 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e05f7dd5-6891-43eb-b8d3-1bfd4ded84ae")
+		(property "Reference" "J20"
+			(at 93.98 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V2_IN"
+			(at 93.98 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+			(at 93.98 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 93.98 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "042dd7d3-d224-4f50-9a5d-eb0eda0104e3")
+		)
+		(pin "2"
+			(uuid "09aa39ff-1097-4b58-b6c0-e70c13f14a92")
+		)
+		(instances
+			(project "actuators"
+				(path "/d2c51b21-75fb-4787-ab14-f8a2e4e8f6ca"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -15280,6 +15814,87 @@
 			(project "actuators"
 				(path "/d2c51b21-75fb-4787-ab14-f8a2e4e8f6ca"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 115.57 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7e5d269-53b5-461d-94fc-efe607449518")
+		(property "Reference" "C38"
+			(at 115.57 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uf"
+			(at 115.57 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10.5"
+			(at 116.5352 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 115.57 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c121b47c-aec4-4317-9923-bbd4ac871ae4")
+		)
+		(pin "1"
+			(uuid "1061fa2c-f359-4ca5-8126-fd71f6976e9a")
+		)
+		(instances
+			(project "actuators"
+				(path "/d2c51b21-75fb-4787-ab14-f8a2e4e8f6ca"
+					(reference "C38")
 					(unit 1)
 				)
 			)
