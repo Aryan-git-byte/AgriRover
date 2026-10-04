@@ -42,17 +42,6 @@ It is the board with a CM4 onboard to perform all the CV things, calculations, h
 <img width="1026" height="837" alt="image" src="https://github.com/user-attachments/assets/21a2c8ea-edc8-455b-a9a1-e2e0b4e9f430" />
 <img width="1451" height="894" alt="image" src="https://github.com/user-attachments/assets/50be7bbb-7eb1-4942-9052-6418bbbbc152" />
 
-## Camera Head:
-<img width="515" height="455" alt="image" src="https://github.com/user-attachments/assets/972cbfd1-2e7b-4a86-8f9d-78792f8f53eb" />
-
-## Auger arm:
-<img width="955" height="668" alt="image" src="https://github.com/user-attachments/assets/ab138d2a-7213-44df-9491-f11522ebe437" />
-
-## Wheels:
-<img width="736" height="648" alt="image" src="https://github.com/user-attachments/assets/51eb0d36-b385-4750-a597-8049cd7b6b9d" />
-<img width="1005" height="736" alt="image" src="https://github.com/user-attachments/assets/8a456968-0094-48c8-8548-dab236d5b8d7" />
-<img width="1146" height="685" alt="image" src="https://github.com/user-attachments/assets/b8da2e6e-5f80-4e95-85c0-f2ff190a5841" />
-<img width="1028" height="726" alt="image" src="https://github.com/user-attachments/assets/6b0ecf0a-e1ac-4d23-be65-2007aa8f8b4f" />
 
 ## Radio Board
 it is the board responsible for communication with the transmitter and the HTTPS through LTE, it features:
@@ -68,6 +57,19 @@ it is the board responsible for communication with the transmitter and the HTTPS
 <img width="992" height="870" alt="image" src="https://github.com/user-attachments/assets/294c3270-0289-4cb2-bcef-476d8e86372d" />
 <img width="1246" height="843" alt="image" src="https://github.com/user-attachments/assets/19ff6ac8-39e0-4518-a36b-a1484dc91ea5" />
 <img width="1130" height="690" alt="image" src="https://github.com/user-attachments/assets/b594f59f-0301-4415-8010-940bdf553b91" />
+
+
+## Camera Head:
+<img width="515" height="455" alt="image" src="https://github.com/user-attachments/assets/972cbfd1-2e7b-4a86-8f9d-78792f8f53eb" />
+
+## Auger arm:
+<img width="955" height="668" alt="image" src="https://github.com/user-attachments/assets/ab138d2a-7213-44df-9491-f11522ebe437" />
+
+## Wheels:
+<img width="736" height="648" alt="image" src="https://github.com/user-attachments/assets/51eb0d36-b385-4750-a597-8049cd7b6b9d" />
+<img width="1005" height="736" alt="image" src="https://github.com/user-attachments/assets/8a456968-0094-48c8-8548-dab236d5b8d7" />
+<img width="1146" height="685" alt="image" src="https://github.com/user-attachments/assets/b8da2e6e-5f80-4e95-85c0-f2ff190a5841" />
+<img width="1028" height="726" alt="image" src="https://github.com/user-attachments/assets/6b0ecf0a-e1ac-4d23-be65-2007aa8f8b4f" />
 
 
 # Journals:
