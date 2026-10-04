@@ -197,3 +197,11 @@ then started writing the journals and pushed that .
 heres the schematic rn:
 <img width="1224" height="802" alt="image" src="https://github.com/user-attachments/assets/909d2687-a7bb-486e-a3de-0479fffc7890" />
 and then i stopped the lapse
+
+```
+Date: 04|10|2026
+Title: Reformated the README
+Lapse: https://lapse.hackclub.com/timelapse/j0HzOHwg0YSu
+```
+Wrote the journal for the last lapse, and then also added every PCB, schematic to the readme and introduced em :
+<img width="622" height="790" alt="image" src="https://github.com/user-attachments/assets/38c32059-89d0-4bb5-b5e4-73c6b3bb85a3" />
