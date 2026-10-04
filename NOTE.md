@@ -98,3 +98,34 @@ By: Aryan-git-byte
 The radio board need to have the LTE module along with antenna connectors, it will also have the RF receiver to be controlled with transmitter.
 also would have the GPS and connectors to be interfaced with the main board . it will be probably be made as a shield for that 2x20 rp connector.
 and yeah LoRa for the RF
+
+```
+Number: 6
+Title: Scoping out the Power Board
+Date: 04/10/2026
+By: Aryan-git-byte
+```
+
+To scope this out i would first need to calculate my power consumption.
+on the main board we have a CM4, USB-A, Fan, TF Luna which totals around ( 2A + 0.5A + 0.4A + 0.2A) 3.1A
+and on the 3v3 rail lets take 1A for worse case
+
+now on radio board we need 1A for peak at sim7080 - so 1.5A here in 3v3 line as its powered from that!
+
+On motor driver board, we have 5 motors and 6 MG996R with 3A stall current each. so 33A - FAHH. 
+
+total we got
+
+5V - 4A
+6V - 35A
+3v3 - 3A
+
+kk now decieded, the power board would need to delive
+
+3v3 at 3A
+5v at 4A
+6v1 at 15A
+6v2 at 15A
+
+for charging, there would be a solar onboarded on the rover of (values tbd), along with a charger (that too tbd).
+the battery shall report its charge to the cm4 and other data too
